@@ -3,7 +3,7 @@ import COMMANDS from './commands';
 import markup from './markup';
 
 export {
-  cloneCommandNode,
-  COMMANDS,
-  markup,
+    cloneCommandNode,
+    COMMANDS,
+    markup,
 };
