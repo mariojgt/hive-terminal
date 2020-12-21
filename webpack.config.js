@@ -22,7 +22,8 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
-          presets: ['env'],
+          // Here you should change 'env' to '@babel/preset-env'
+          presets: ['@babel/preset-env'],
           plugins: ['transform-class-properties'],
         },
       },
