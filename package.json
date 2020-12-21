@@ -1,0 +1,48 @@
+{
+  "name": "hive-terminal",
+  "version": "0.0.1",
+  "icon": "🐝",
+  "description": "🐝A simple and lightweight Javascript web browser terminal",
+  "keywords": [
+    "terminal",
+    "console",
+    "xterm",
+    "shell",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariojgt/hive-terminal.git"
+  },
+  "license": "MIT",
+  "main": "./dist/vanilla-terminal.js",
+  "bin": "./dist/vanilla-terminal.js",
+  "homepage": "https://github.com/mariojgt/hive-terminal",
+  "bugs": "https://github.com/mariojgt/hive-terminal/issues",
+  "devDependencies": {
+    "axios": "^0.19",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "latest",
+    "eslint-plugin-import": "^2.13.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.5.0",
+    "release-it": "^7.4.3",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint src/**",
+    "release": "release-it"
+  }
+}
