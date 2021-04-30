@@ -4,6 +4,7 @@ import HELP from './help';
 const { localStorage } = window;
 const KEY = 'HiveTerm';
 
+// Here is where you define your commands
 export default {
     clear: terminal => terminal.clear(),
 
